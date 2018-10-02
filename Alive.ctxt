@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Alive
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ rabbit.\r\n\ Zombies\ age,\ move,\ breed,\ and\ die.\r\n\ \r\n\ @author\ Nour\ Ataya,\ Yinuo\ Xiang\r\n\ @version\ 2016.02.29\ (2)\r\n
+comment1.params=field\ location
+comment1.target=Alive(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ new\ rabbit.\ A\ rabbit\ may\ be\ created\ with\ age\r\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ rabbit\ will\ have\ a\ random\ age.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=foodLevel
+comment2.target=int\ incrementHunger(int)
+comment2.text=\r\n\ Make\ this\ alive\ species\ more\ hungry.\ This\ could\ result\ in\ the\ species's\ death.\r\n\ @param\ foodLevel\ The\ food\ level\ of\ alive\ species.\r\n
+comment3.params=breedingProbability\ maxLitterSize
+comment3.target=int\ breed(double,\ int)
+comment3.text=\r\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\r\n\ if\ it\ can\ breed.\r\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\r\n
+comment4.params=
+comment4.target=java.lang.String\ generateGender()
+comment4.text=\r\n\ Generate\ the\ gender\ of\ birth.\r\n\ @return\ The\ gender\ of\ new\ born.\r\n
+comment5.params=breedingAge
+comment5.target=boolean\ canBreed(int)
+comment5.text=\r\n\ A\ alive\ species\ can\ breed\ if\ it\ has\ reached\ the\ breeding\ age.\r\n\ @return\ true\ if\ the\ alive\ species\ can\ breed,\ false\ otherwise.\r\n
+numComments=6

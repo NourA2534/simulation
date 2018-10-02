@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Animals
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Animals\ here.\r\n\r\n\ @author\ Nour\ Ataya,\ Yinuo\ Xiang\r\n\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Animals(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Animals\r\n
+comment2.params=newAnimals\ day\ isRaining
+comment2.target=void\ act(java.util.List,\ boolean,\ boolean)
+comment2.text=\r\n\ This\ is\ what\ the\ animal\ act\:\ It\ move\ and\ breedin\ day\ time.\ \r\n\ They\ die\ because\ of\ hunger\ or\ old\ age.\r\n\ @param\ newAnimals\ A\ list\ to\ return\ newly\ born\ animal.\r\n\ @param\ day\ The\ day\ status\ of\ one\ day.\r\n\ @param\ isRaining\ The\ weather\ of\ the\ field.\r\n
+comment3.params=
+comment3.target=int\ getMaxAge()
+comment3.text=\r\n\ Get\ the\ maximum\ age\ of\ human.\r\n\ @return\ The\ maximum\ age\ of\ animal.\r\n
+comment4.params=newAnimals
+comment4.target=void\ giveBirth(java.util.List)
+comment4.text=\r\n\ Check\ whether\ or\ not\ this\ animal\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ @param\ newAnimals\ A\ list\ to\ return\ newly\ born\ animals.\r\n
+comment5.params=
+comment5.target=Location\ findFood()
+comment5.text=\r\n\ Look\ for\ plants\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ live\ plant\ is\ eaten.\r\n\ @return\ null\ when\ plants\ was\ foundor\ if\ it\ wasn't.\r\n
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Zombie
+comment0.text=\r\n\ A\ simple\ model\ of\ a\ aliveSpecies.\r\n\ aliveSpecieses\ age,\ move,\ eat\ rabbits,\ and\ die.\r\n\ \r\n\ @author\ Nour\ Ataya,\ Yinuo\ Xiang\r\n\ @version\ 2016.02.29\ (2)\r\n
+comment1.params=field\ location
+comment1.target=Zombie(Field,\ Location)
+comment1.text=\r\n\ Create\ a\ aliveSpecies.\ A\ aliveSpecies\ can\ be\ created\ as\ a\ new\ born\ (age\ zero\r\n\ and\ not\ hungry)\ or\ with\ a\ random\ age\ and\ food\ level.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ aliveSpecies\ will\ have\ random\ age\ and\ hunger\ level.\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n
+comment2.params=
+comment2.target=double\ spreadDisease()
+comment2.text=\r\n\ Generate\ a\ random\ double\ value\ to\ decide\ if\ can\ spread\ disease.\r\n
+numComments=3

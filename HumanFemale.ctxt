@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HumanFemale
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Female\ here.\r\n\r\n\ @author\ Nour\ Ataya,\ Yinuo\ Xiang\r\n\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=HumanFemale(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Female\r\n
+comment2.params=
+comment2.target=boolean\ meet()
+comment2.text=\r\n\ Check\ if\ a\ female\ meet\ a\ male.\r\n\ @return\ True\ if\ female\ meet\ a\ male,\ false\ if\ not.\r\n
+comment3.params=newHuman
+comment3.target=void\ giveBirth(java.util.List)
+comment3.text=\r\n\ Female\ give\ birth\ if\ she\ meet\ a\ male,\ the\ number\ of\ birth\ could\ be\ 0.\r\n\ @param\ newHuman\ A\ list\ to\ return\ newly\ born\ human.\r\n
+numComments=4

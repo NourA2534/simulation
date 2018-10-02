@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Human
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Human\ here.\r\n\r\n\ @author\ Nour\ Ataya,\ Yinuo\ Xiang\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=randomAge\ field\ location
+comment1.target=Human(boolean,\ Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Human\r\n
+comment2.params=newHuman\ day\ isRaining
+comment2.target=void\ act(java.util.List,\ boolean,\ boolean)
+comment2.text=\r\n\ This\ is\ what\ the\ human\ act\:\ They\ move\ in\ day\ time,\ breeding\ if\ \r\n\ there\ is\ one\ male\ and\ one\ female\ meet.\ They\ die\ because\ of\ hunger\ \r\n\ or\ old\ age.\r\n\ @param\ newHuman\ A\ list\ to\ return\ newly\ born\ human.\r\n\ @param\ day\ The\ day\ status\ of\ one\ day.\r\n\ @param\ isRaining\ The\ weather\ of\ the\ field.\r\n
+comment3.params=newHuman
+comment3.target=void\ breeding(java.util.List)
+comment3.text=\r\n\ Human\ give\ birth\ if\ they\ reach\ the\ breeding\ age.\r\n\ @param\ newHuman\ A\ list\ to\ return\ newly\ born\ human.\r\n
+comment4.params=
+comment4.target=int\ getMaxAge()
+comment4.text=\r\n\ Get\ the\ maximum\ age\ of\ human.\r\n\ @return\ The\ maximum\ age\ of\ human.\r\n
+comment5.params=newHuman
+comment5.target=void\ giveBirth(java.util.List)
+comment5.text=\r\n\ Human\ givebirth.\r\n\ @param\ newHuman\ A\ list\ to\ return\ newly\ born\ human.\r\n
+comment6.params=
+comment6.target=Location\ findFood()
+comment6.text=\r\n\ Look\ for\ plants\ and\ animals\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ live\ plant\ or\ aniaml\ is\ eaten.\r\n\ Also\ look\ for\ zombie\ animals\ and\ kiil\ then.\r\n\ @return\ Where\ animal\ was\ found\ or\ kill\ a\ zombie\ animal,\ \r\n\ or\ null\ if\ it\ wasn't\ or\ find\ a\ plant.\r\n
+numComments=7

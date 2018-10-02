@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ZombieAnimals
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ ZombieAnimals\ here.\r\n\r\n\ @author\ Nour\ Ataya,\ Yinuo\ Xiang\r\n\ \r\n
+comment1.params=field\ location
+comment1.target=ZombieAnimals(Field,\ Location)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ZombieAnimals\r\n
+comment2.params=newZombie\ day\ isRaining
+comment2.target=void\ act(java.util.List,\ boolean,\ boolean)
+comment2.text=\r\n\ This\ is\ what\ the\ zombie\ animal\ act\:\ It\ move\ in\ night\ time\ and\ is\ \r\n\ not\ raining.\ It\ has\ probability\ to\ transform\ a\ killed\ animal\ into\r\n\ zombie\ animal.\r\n\ @param\ newZombie\ A\ list\ to\ return\ newly\ born\ zombie\ animal.\r\n\ @param\ day\ The\ day\ status\ of\ one\ day.\r\n\ @param\ isRaining\ The\ weather\ of\ the\ field.\r\n
+comment3.params=
+comment3.target=int\ getMaxAge()
+comment3.text=\r\n\ Get\ the\ maximum\ age\ of\ zombie\ human.\r\n\ @return\ The\ maximum\ age\ of\ zombie\ human.\r\n
+comment4.params=newZombie\ location
+comment4.target=void\ giveBirth(java.util.List,\ Location)
+comment4.text=\r\n\ Zombie\ animal\ givebirth.\r\n\ @param\ newZombie\ A\ list\ to\ return\ newly\ born\ zombie\ animal.\r\n\ @param\ location\ The\ location\ of\ the\ newly\ born\ zombie\ animal.\r\n
+comment5.params=newZombie
+comment5.target=Location\ findFood(java.util.List)
+comment5.text=\r\n\ Look\ for\ animals\ and\ zombie\ human\ adjacent\ to\ the\ current\ location.\r\n\ Only\ the\ first\ live\ animal\ or\ zombie\ human\ could\ be\ killed.\r\n\ @param\ newZombie\ A\ list\ to\ return\ newly\ born\ zombie\ animal.\r\n\ @return\ Where\ animal\ was\ found,\ or\ null\ if\ it\ wasn't\ or\ find\ a\r\n\ zombie\ human.\r\n
+numComments=6
